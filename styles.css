@@ -1,0 +1,56 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+.input{
+    border: 2px solid grey;
+    border-radius: 20px;
+    height: 100px;
+    color: black;
+    width: 400px;
+    padding: 16px;
+    vertical-align: top;
+    resize: none;
+}
+
+.active{
+     border-color: transparent;
+     box-shadow: 0 0 0 1px red;
+    color: red;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    position: relative;
+}
+
+.textnumber{
+ position: absolute;
+ bottom: 10px;
+ right: 20px;
+ font-size: 13px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+}
+
+.activetextnumber{
+    color: red;
+}
+
+.limit-toast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    height: 40px;
+    font-size: 16px;
+    margin: 20px;
+    background-color: rgba(238, 114, 114, 0.5);
+}
+
+.toast{
+    display: none;
+}
